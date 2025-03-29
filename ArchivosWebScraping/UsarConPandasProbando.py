@@ -73,17 +73,7 @@ def extraer_detalles_caso(driver, wait, index):
     detalles_vista = []
     caso = "N/A"
     
-    # Extraer número de caso
-    """ try:
-        time.sleep(5)
-        elementos_extra = driver.find_elements(By.XPATH, "//div[@id='StackPanel_h1_1_0']")
-        for elem in elementos_extra:
-            if elem.text.strip():
-                caso = elem.text.strip()
-                detalles_vista.append(f"📌 Número de Caso: {caso}")
-                break  # Tomar el primer número válido
-    except Exception as e:
-        detalles_vista.append(f"📌 Número de Caso: Error ({e})") """
+
     #Extraccion de informacion conversación con Funcionario
     try:
         elementos = driver.find_elements(By.CSS_SELECTOR, ".cont-aten .chat-box-body .chat-box-body-elem")
@@ -213,20 +203,7 @@ def extraer_detalles_tabla(driver):
                     if boton_volver.is_displayed() and boton_volver.is_enabled():
                         boton_volver.click()
                         print(f"🔙 Se hizo clic en el botón de volver en la fila {index}.")
-                    
-                        """
-                        # Este codigo es por si quiere pasar por paginas los casos #Edicion 1
-                        # Volver a la página correcta
-                        for _ in range(pagina_actual - 1):
-                            try:
-                                siguiente_pagina = driver.find_element(By.XPATH, "//ul[@id='myPager']/li[not(contains(@class, 'active'))]/a[@class='page_link']")
-                                siguiente_pagina.click()
-                                print(f"➡️ Volviendo a la página {pagina_actual}...")
-                                time.sleep(5)
-                            except Exception:
-                                print("⚠️ No se pudo regresar a la página correcta. Verificar navegación.")
-                                break    
-                    """         
+              
                     else:
                         raise Exception("El botón de volver no está interactuable.")
                 except Exception as e:
@@ -240,21 +217,7 @@ def extraer_detalles_tabla(driver):
             except Exception as e:
                 print(f"❌ Error en la fila {index}: {e}")
                 index += 1
-            """ 
-                    #Este codigo es por si quiere pasar por paginas los casos #Edicion 1
-            try:
-                siguiente_pagina = driver.find_element(By.XPATH, "//ul[@id='myPager']/li[not(contains(@class, 'active'))]/a[@class='page_link']")
-                if siguiente_pagina.is_displayed() and siguiente_pagina.is_enabled():
-                    siguiente_pagina.click()
-                    pagina_actual += 1  # Actualizar la página actual
-                    print(f"➡️ Avanzando a la página {pagina_actual}...")
-                    time.sleep(5)  # Esperar a que la página se cargue completamente
-                else:
-                    print("✅ No hay más páginas disponibles.")
-                    break  # Salir del bucle si no hay más páginas
-            except NoSuchElementException:
-                print("✅ No se encontró el botón de siguiente página. Finalizando extracción.")
-                break """
+
                                 
         if data_segunda_vista:
             df_segunda = pd.DataFrame(data_segunda_vista, columns=["Referencia", "Detalles"])
