@@ -9,6 +9,7 @@ import pandas as pd
 import time
 import re
 import csv
+import json
 
 from selenium.common.exceptions import TimeoutException
 
@@ -57,11 +58,16 @@ def extraer_tabla(driver):
             row_data = [col.text.strip() for col in columns]
             if row_data:
                 data.append(row_data)
+       # Convertir datos a JSON
+        json_data = json.dumps(data, ensure_ascii=False, indent=4)
 
-        # Convertir a DataFrame y guardar en CSV
-        df = pd.DataFrame(data)
-        df.to_csv("primera_vista.csv", index=False)
-        print("Extracción completada. Datos guardados en 'datos_extraidos.csv'")
+        # Guardar en archivo JSON
+        with open("primera_vista.json", "w", encoding="utf-8") as json_file:
+            json_file.write(json_data)
+
+        print("✅ Extracción completada. Datos guardados en 'primera_vista.json'")
+
+        return json_data
 
     except Exception as e:
         print("❌ Error al extraer la tabla principal:", e)
@@ -195,7 +201,7 @@ def extraer_detalles_tabla(driver):
                 
                 detalle_completo = extraer_detalles_caso(driver, wait, index)
                 print(f"Detalles extraídos: {detalle_completo[:200]}")
-                data_segunda_vista.append([referencia, detalle_completo])
+                data_segunda_vista.append({"Referencia": referencia, "Detalles": detalle_completo})
                 
                 try:
                     time.sleep(5)
@@ -220,15 +226,21 @@ def extraer_detalles_tabla(driver):
 
                                 
         if data_segunda_vista:
-            df_segunda = pd.DataFrame(data_segunda_vista, columns=["Referencia", "Detalles"])
-            df_segunda.to_csv("segunda_vista.csv", index=False)
-            print("✅ Segunda vista guardada en 'segunda_vista.csv'.")
+            json_data = json.dumps(data_segunda_vista, ensure_ascii=False, indent=4)
+
+            # Guardar en archivo JSON
+            with open("segunda_vista.json", "w", encoding="utf-8") as json_file:
+                json_file.write(json_data)
+
+            print("✅ Segunda vista guardada en 'segunda_vista.json'.")
+            return json_data
         else:
             print("⚠️ No se extrajo ningún dato para la segunda vista.")
-    
+            return json.dumps([])
+
     except Exception as e:
         print("❌ Error general en la extracción:", e)
-
+        return json.dumps([])
 
        
 if __name__ == "__main__":
