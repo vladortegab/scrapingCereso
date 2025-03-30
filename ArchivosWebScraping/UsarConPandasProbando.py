@@ -42,8 +42,31 @@ def iniciar_sesion(driver, usuario, contraseña):
     except Exception as e:
         print("Error al iniciar sesión:", e)
 
-def extraer_tabla(driver):
-    """Extrae datos de la tabla y los guarda en un archivo CSV."""
+""" def extraer_tabla(driver):
+    ""Extrae datos de la tabla y los guarda en un archivo CSV.""
+    
+    # 1️⃣ Hacer clic en el botón 'Vista' para desplegar opciones
+    try:
+        boton_vista = wait.until(EC.presence_of_element_located((By.XPATH, "//li[contains(@class, 'ColorTab')]/a[div/div[text()='Vista']]")))
+        boton_vista.click()
+        print("✅ Se hizo clic en la pestaña 'Vista'.")
+        time.sleep(2)
+    except Exception as e:
+        print("⚠️ No se pudo abrir la vista de opciones:", e)
+        return
+
+    # 2️⃣ Seleccionar 100 en el select
+    try:
+        select_element = wait.until(EC.presence_of_element_located((By.XPATH, "//select[@class='form-control']")))
+        select = Select(select_element)
+        select.select_by_value("100")
+        print("✅ Se seleccionó '100 filas' en el selector.")
+
+        time.sleep(5)  # Esperar que carguen los datos
+    except Exception as e:
+        print("⚠️ No se pudo seleccionar 100 registros por página:", e)
+        return
+        
     try:
         # Esperar a que la tabla cargue
         wait = WebDriverWait(driver, 10)
@@ -72,74 +95,81 @@ def extraer_tabla(driver):
     except Exception as e:
         print("❌ Error al extraer la tabla principal:", e)
 
-
+ """
 
 def extraer_detalles_caso(driver, wait, index):
-    """Extrae los detalles de un caso individual sin agregar información vacía."""
+    """Extrae los detalles de un caso, asegurando que la fecha correcta se asigne a cada mensaje y evitando mensajes vacíos."""
     detalles_vista = []
-    caso = "N/A"
-    
 
-    #Extraccion de informacion conversación con Funcionario
     try:
         elementos = driver.find_elements(By.CSS_SELECTOR, ".cont-aten .chat-box-body .chat-box-body-elem")
         detalles_tabla1 = []
 
+        ultima_fecha = "N/A"  # Variable para almacenar la última fecha encontrada
+
         for elemento in elementos:
-            usuario = elemento.find_element(By.CSS_SELECTOR, ".item-user-name.font-1").text.strip() if elemento.find_elements(By.CSS_SELECTOR, ".item-user-name.font-1") else None
-            mensaje = elemento.find_element(By.CSS_SELECTOR, ".item-msg-lbl.font-3").text.strip() if elemento.find_elements(By.CSS_SELECTOR, ".item-msg-lbl.font-3") else None
-            hora = elemento.find_element(By.CSS_SELECTOR, ".item-fecha-lbl.font-3").text.strip() if elemento.find_elements(By.CSS_SELECTOR, ".item-fecha-lbl.font-3") else None
-            fecha_elemento = elemento.find_element(By.CSS_SELECTOR, ".title-cont-title label") if elemento.find_elements(By.CSS_SELECTOR, ".title-cont-title label") else None
-            fecha = fecha_elemento.text.strip() if fecha_elemento else "N/A"
-            
+            # Buscar si hay una fecha en este bloque
+            fecha_elemento = elemento.find_elements(By.CSS_SELECTOR, ".title-cont-title label")
+            if fecha_elemento:
+                ultima_fecha = fecha_elemento[0].text.strip()
+
             mensajes = elemento.find_elements(By.CSS_SELECTOR, ".item-cont-main")
-
             for mensaje_elem in mensajes:
-                usuario = mensaje_elem.find_element(By.CSS_SELECTOR, ".item-user-name.font-1").text.strip() if mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-user-name.font-1") else None
-                mensaje = mensaje_elem.find_element(By.CSS_SELECTOR, ".item-msg-lbl.font-3").text.strip() if mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-msg-lbl.font-3") else None
-                hora = mensaje_elem.find_element(By.CSS_SELECTOR, ".item-fecha-lbl.font-3").text.strip() if mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-fecha-lbl.font-3") else None
+                usuario_elemento = mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-user-name.font-1")
+                mensaje_elemento = mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-msg-lbl.font-3")
+                hora_elemento = mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-fecha-lbl.font-3")
 
-            # Solo agrega la entrada si hay al menos un dato válido
-            if usuario or mensaje or hora:
-                detalles_tabla1.append(f"📌 Tabla 1: | Usuario: {usuario or 'N/A'} | Mensaje: {mensaje or 'N/A'} | Fecha: {fecha} | Hora: {hora or 'N/A'}")
-        # Agregar solo si hay contenido válido
+                usuario = usuario_elemento[0].text.strip() if usuario_elemento else "Desconocido"
+                mensaje = mensaje_elemento[0].text.strip() if mensaje_elemento and mensaje_elemento[0].text.strip() else None
+                hora = hora_elemento[0].text.strip() if hora_elemento else "Sin hora"
+
+                # Solo agregar si hay un mensaje no vacío
+                if mensaje:
+                    detalles_tabla1.append(f"📌 Tabla 1: | Usuario: {usuario} | Mensaje: {mensaje} | Fecha: {ultima_fecha} | Hora: {hora}")
+
         if detalles_tabla1:
-            detalles_vista.append(f"{' || '.join(detalles_tabla1)}")
+            detalles_vista.append(" || ".join(detalles_tabla1))
+
     except Exception as e:
         detalles_vista.append(f"📌 Tabla 1: Error ({e})")
-    
+
     #Extraccion de informacion conversación con Usuarios
     try:
-        elementos = driver.find_elements(By.CSS_SELECTOR, ".cont-messages .chat-box-body .chat-box-body-elem")
-        detalles_tabla1 = []
+            elementos = driver.find_elements(By.CSS_SELECTOR, ".cont-messages .chat-box-body .chat-box-body-elem")
 
-        for elemento in elementos:
-            usuario = elemento.find_element(By.CSS_SELECTOR, ".item-user-name.font-1").text.strip() if elemento.find_elements(By.CSS_SELECTOR, ".item-user-name.font-1") else None
-            mensaje = elemento.find_element(By.CSS_SELECTOR, ".item-msg-lbl.font-3").text.strip() if elemento.find_elements(By.CSS_SELECTOR, ".item-msg-lbl.font-3") else None
-            hora = elemento.find_element(By.CSS_SELECTOR, ".item-fecha-lbl.font-3").text.strip() if elemento.find_elements(By.CSS_SELECTOR, ".item-fecha-lbl.font-3") else None
-            fecha_elemento = elemento.find_element(By.CSS_SELECTOR, ".title-cont-title label") if elemento.find_elements(By.CSS_SELECTOR, ".title-cont-title label") else None
-            fecha = fecha_elemento.text.strip() if fecha_elemento else "N/A"
-            
-            mensajes = elemento.find_elements(By.CSS_SELECTOR, ".item-cont-main")
+            detalles_tabla2 = []
 
-            for mensaje_elem in mensajes:
-                usuario = mensaje_elem.find_element(By.CSS_SELECTOR, ".item-user-name.font-1").text.strip() if mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-user-name.font-1") else None
-                mensaje = mensaje_elem.find_element(By.CSS_SELECTOR, ".item-msg-lbl.font-3").text.strip() if mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-msg-lbl.font-3") else None
-                hora = mensaje_elem.find_element(By.CSS_SELECTOR, ".item-fecha-lbl.font-3").text.strip() if mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-fecha-lbl.font-3") else None
+            ultima_fecha = "N/A"  # Variable para almacenar la última fecha encontrada
 
-            # Solo agrega la entrada si hay al menos un dato válido
-            if usuario or mensaje or hora:
-                detalles_tabla1.append(f"📌 Tabla 2: | Usuario: {usuario or 'N/A'} | Mensaje: {mensaje or 'N/A'} | Fecha: {fecha} | Hora: {hora or 'N/A'}")
-        # Agregar solo si hay contenido válido
-        if detalles_tabla1:
-            detalles_vista.append(f"{' || '.join(detalles_tabla1)}")
+            for elemento in elementos:
+                # Buscar si hay una fecha en este bloque
+                fecha_elemento = elemento.find_elements(By.CSS_SELECTOR, ".title-cont-title label")
+                if fecha_elemento:
+                    ultima_fecha = fecha_elemento[0].text.strip()
+
+                mensajes = elemento.find_elements(By.CSS_SELECTOR, ".item-cont-main")
+                for mensaje_elem in mensajes:
+                    usuario_elemento = mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-user-name.font-1")
+                    mensaje_elemento = mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-msg-lbl.font-3")
+                    hora_elemento = mensaje_elem.find_elements(By.CSS_SELECTOR, ".item-fecha-lbl.font-3")
+
+                    usuario = usuario_elemento[0].text.strip() if usuario_elemento else "Desconocido"
+                    mensaje = mensaje_elemento[0].text.strip() if mensaje_elemento and mensaje_elemento[0].text.strip() else None
+                    hora = hora_elemento[0].text.strip() if hora_elemento else "Sin hora"
+
+                    # Solo agregar si hay un mensaje no vacío
+                    if mensaje:
+                        detalles_tabla2.append(f"📌 Tabla 2: | Usuario: {usuario} | Mensaje: {mensaje} | Fecha: {ultima_fecha} | Hora: {hora}")
+
+            if detalles_tabla2:
+                detalles_vista.append(" || ".join(detalles_tabla2))
+
     except Exception as e:
         detalles_vista.append(f"📌 Tabla 2: Error ({e})")
-        
-        
+
     return " | ".join(detalles_vista) if detalles_vista else "No se encontraron detalles"
 def extraer_detalles_tabla(driver):
-    """Extrae detalles de la segunda vista y los guarda en 'segunda_vista.csv'."""
+    """Extrae detalles de la segunda vista y los guarda en 'segunda_vista.json'."""
     try:
         wait = WebDriverWait(driver, 10)
         print("⏳ Iniciando extracción de datos...")
@@ -250,7 +280,7 @@ if __name__ == "__main__":
     contraseña = "Col2024#"  # ⚠️ Usa variables de entorno en producción
 
     iniciar_sesion(driver, usuario, contraseña)
-    extraer_tabla(driver)  # Extraer y guardar la primera vista
+    # extraer_tabla(driver)  # Extraer y guardar la primera vista
     extraer_detalles_tabla(driver)  # Extraer y guardar la segunda vista
 
 

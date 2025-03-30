@@ -12,6 +12,62 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, vemos que la solicitud 89371 todavía esta del lado del usuario, de la empresa SINO AGRI LEADING BIOSCIENCES COLOMBIA S.A.S, en estado de cargue de información , por lo que aun no se aprobado esa prueba. Me puede brindar mas información al respecto, en que empresa lo va usar, o que otra solicitud tiene, porque esta 89371 aun no es aceptada",
+                "Fecha": "06/03/2025",
+                "Hora": "10:19 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial saludo, Le informamos que se envio un correo de cierre por falta de respuesta",
+                "Fecha": "06/03/2025",
+                "Hora": "08:23 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "analista.ensayosH&R",
+                "Mensaje": "Cordial saludo. Se solicita, por favor, el envío del protocolo con el sello de aprobación que normalmente se envía por correo electrónico al titular del registro y tan pronto se activa el módulo respectivo para enviar la programación de ensayos. No es posible enviar una programación de ensayos sin antes tener una aprobación del protocolo. Por tanto, no es necesario tener una aprobación del informe final de eficacia para recibir el documento en cuestión. Agradezco su comprensión y la pronta solución a este caso.",
+                "Fecha": "06/03/2025",
+                "Hora": "08:36 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, estimado usuario, comprendo lo que me informa, permítanos escalar su caso a desarrollo para que ellos validen donde quedo el protocolo aprobado, le pedimos paciencia y le estaremos informando por este medio",
+                "Fecha": "06/03/2025",
+                "Hora": "11:26 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "analista.ensayosH&R",
+                "Mensaje": "Buen día, Vladimir. Espero se encuentre bien. Muchas gracias por la ayuda prestada. Quedo atento.",
+                "Fecha": "06/03/2025",
+                "Hora": "11:43 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "analista.ensayosH&R",
+                "Mensaje": "Cordial saludo. Envío el presente como recordatorio de la solicitud. Deseo, por favor, confirmar si existe alguna novedad. Muchas gracias.",
+                "Fecha": "06/03/2025",
+                "Hora": "10:41 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, aun no tenemos respuesta del área de desarrollo, estamos muy pendiente de que nos brinden alguna información al respecto para hacerle llegar cualquier novedad",
+                "Fecha": "06/03/2025",
+                "Hora": "11:38 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "analista.ensayosH&R",
+                "Mensaje": "Buen día, Vladimir. Escribo con el fin de consultar si se tiene alguna novedad con respecto a este caso. Agradezco su colaboración.",
+                "Fecha": "06/03/2025",
+                "Hora": "04:16 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
                 "Mensaje": "Buenos días como estas, todavía no tenemos novedad de su caso, le pedimos disculpas y esperamos darle respuesta lo mas pronto",
                 "Fecha": "06/03/2025",
                 "Hora": "07:16 AM"
@@ -23,10 +79,178 @@
         "Detalles": [
             {
                 "Tabla": "Tabla 1",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Atención para Análisis y Ejecución de la solución Cordial Saludo, como estas, estimado usuario, favor para revisar y autorizar la inclusión de los dos Ingredientes Activos que presenta el usuario",
+                "Fecha": "05/03/2025",
+                "Hora": "09:09 AM"
+            },
+            {
+                "Tabla": "Tabla 1",
                 "Usuario": "sindy.ocampo",
                 "Mensaje": "Atención para Análisis y Ejecución de la solución Respetado compañero ya se realizo la solictud a la direccion técnica , reasigno el cereso para que quede del lado de ustedes para continuar con el tramite. puesto que no lo puedo dejar en mi bandeja ya que si lo reuqieren puedan tenerlo a la mano. la razon es por que desde 07/03/2025 despues d elas 4:30pm empiezo mi etapa de vacaciones .",
                 "Fecha": "05/03/2025",
                 "Hora": "09:36 AM"
+            },
+            {
+                "Tabla": "Tabla 1",
+                "Usuario": "sindy.ocampo",
+                "Mensaje": "Atención para Análisis y Ejecución de la solución Respetado compañero ya se realizo la solictud a la direccion técnica , reasigno el cereso para que quede del lado de ustedes para continuar con el tramite. puesto que no lo puedo dejar en mi bandeja ya que si lo reuqieren puedan tenerlo a la mano. la razon es por que desde 07/03/2025 despues d elas 4:30pm empiezo mi etapa de vacaciones .",
+                "Fecha": "05/03/2025",
+                "Hora": "09:36 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, primero debes en el modulo 2, Información técnica, desplegar donde dice Información prueba de eficacia y desplegar el protocolo que hace referencia a ese Ingrediente activo y en el modulo 3de composición donde dice Composición garantizada, debes llenar ese protocolo del modelo 2 y en Acciones le das editar y puedes buscar el Ingrediente activo para que de esta manera completes dos Ingredientes",
+                "Fecha": "05/03/2025",
+                "Hora": "11:39 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buen día, sucede que estos dos ingredientes activos del producto formulado no aparecen dentro del listado",
+                "Fecha": "05/03/2025",
+                "Hora": "05:18 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, permítanos escalamos su caso a la Dirección técnica, para que ellos autoricen incluir esos dos IA en la base de datos, si presenta dificultades o inconvenientes en recibir respuestas, escribir al correo contactenos@ica.gov.co , Feliz día",
+                "Fecha": "05/03/2025",
+                "Hora": "09:08 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buenos días, muchas gracias, agradeceriamos mucho una pronta respuesta, debido que el plazo para correcciones se nos vence el 10 de marzo y nos hace falta solo eso para poder atender todos los requerimientos",
+                "Fecha": "05/03/2025",
+                "Hora": "09:37 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, estimado usuario, comprendo su preocupación, lo que sucede es que los ingredientes activos no presentes en la plataforma, requieren una autorización, esperemos que la recibamos en un tiempo prudente antes del 10, igualmente si no llega a esa fecha deberían darle un tiempo de mas para poder enviar su tramite",
+                "Fecha": "05/03/2025",
+                "Hora": "12:12 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buenos días, ¿alguna novedad?",
+                "Fecha": "05/03/2025",
+                "Hora": "08:45 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, no hemos recibido ninguna autorización para adicionar el Ingrediente Activo, estamos atento a la respuesta y validación de la Dirección Técnica",
+                "Fecha": "05/03/2025",
+                "Hora": "09:03 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buenos días, la solicitud de registro con ID 105920 en el día de ayer 10 de marzo de 2025 se vencia el plazo para las correcciones, por lo que, ayer solicitamos la prorroga, con lo cual se crea una solicitud con ID 144911 que en este momento sigue en estado de revisión. Sin embargo, en la madrugada del dia de hoy nos llega un correo de rechazo por vencimiento del ID 105920. Asumimos que esto es un proceso automatico del sistema, sin embargo, agradeceria por favor nos confirmen.",
+                "Fecha": "05/03/2025",
+                "Hora": "08:20 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Así mismo, que nos aclaren si, una vez aceptada la prorroga, la solicitud 105920 vuelve al estado de \"pendiente por correcciones\" y deja de estar como el estado actual de \"rechazada\"",
+                "Fecha": "05/03/2025",
+                "Hora": "08:23 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Agradeceriamos de manera amable una respuesta lo mas urgente posible para saber como proceder.",
+                "Fecha": "05/03/2025",
+                "Hora": "09:55 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial saludo, Entendemos su inquietud y le explicamos el proceso a continuación: La solicitud 105920 fue rechazada automáticamente por vencimiento del plazo, ya que estaba en espera de la inclusión de los Ingredientes Activos (IA) en la base de datos. La solicitud de prórroga 144911 está en revisión, pero no se puede aprobar de inmediato porque los IA aún no han sido autorizados. Para que la solicitud 105920 vuelva al estado de \"pendiente por correcciones\", es necesario que primero se autoricen los IA. Una vez aprobado esto, el procedimiento correcto es que la solicitud 144911 sea aceptada, y la 105920 pase de \"rechazada\" al estado anterior que tenía antes del rechazo, siempre y cuando cuente con la autorización correspondiente. Dado que este es un procedimiento automático, la mejor opción es esperar la validación de los IA y, con base en ello, proceder con la actualización del estado de las solicitudes.",
+                "Fecha": "05/03/2025",
+                "Hora": "11:37 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buenos días, entendido, quedamos al pendiente entonces de cualquier novedad, gracias por la atencion",
+                "Fecha": "05/03/2025",
+                "Hora": "09:48 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buen día, nos llega la notificacion por correo de que la solicitud con ID 144911 correspondiente a \"Prorroga de subsanación de solicitud \"Registro de producto \"ERGOSTIM\"\" ha sido aceptada con una nueva fecha para correcciones la cual vence el 31 de este mes de marzo, sin embargo, el ID del registro de producto 105920 a pesar de que ya cuenta con la nueva fecha para correcciones, se encuentra en el estado de \"rechazada\" y no permite hacer edicion. Por otro lado nos gustaria saber si los ingredientes activos ya fueron incluidos en la lista y si es por esto que se da la aceptación de la prorroga",
+                "Fecha": "05/03/2025",
+                "Hora": "08:16 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, estimado usuario, si, se esta haciendo la validación de los Ingredientes Activos para que si incluyan en el Sistema, estamos a la espera, e inmediatamente te escribimos por acá",
+                "Fecha": "05/03/2025",
+                "Hora": "04:00 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buen día, okay, gracias por la atención, pero eso se si es posible que se haga antes de la fecha limite que nos colocaron?",
+                "Fecha": "05/03/2025",
+                "Hora": "09:38 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buenos días, alguna novedad?",
+                "Fecha": "05/03/2025",
+                "Hora": "07:48 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, todavia no nos ha llegado la autorizacion",
+                "Fecha": "05/03/2025",
+                "Hora": "08:52 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buenos días, nos preocupa es que esto no sea solucionado antes del 31 de marzo que es la fecha para hacer las correcciones",
+                "Fecha": "05/03/2025",
+                "Hora": "09:23 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Buenos días, se ha tenido alguna novedad?",
+                "Fecha": "05/03/2025",
+                "Hora": "08:44 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos días como estas, aun no llega la autorización, volví a preguntar si nos dan respuesta",
+                "Fecha": "05/03/2025",
+                "Hora": "09:42 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos días como estas, estimado usuario, disculpe la demora, quedo habilitada la solicitud 105920 para que pueda editarla correctamente y también agregar sus Ingredientes Activos",
+                "Fecha": "05/03/2025",
+                "Hora": "11:06 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "mtorres",
+                "Mensaje": "Por favor no cerrar el caso, hasta que verifiquemos que si podemos ingresar los dos i.a",
+                "Fecha": "05/03/2025",
+                "Hora": "03:30 PM"
             },
             {
                 "Tabla": "Tabla 2",
@@ -41,11 +265,179 @@
         "Referencia": "225709",
         "Detalles": [
             {
-                "Tabla": "Tabla 1",
-                "Usuario": "martha.cifuentes",
-                "Mensaje": "N/A",
-                "Fecha": "17/03/2025",
-                "Hora": "07:08 PM"
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, desde cual usuario esta visualizando la imagen que me envía?",
+                "Fecha": "20/03/2025",
+                "Hora": "09:43 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenos días. Se visualizó desde la cuenta de nuestro asistente regulatorio RUBEN DARIO GIRALDO, pero el tampoco a podido ingresar a actualizar la cuenta de nuestra empresa. Anexo solicitud de nuestra Gerente de Exportaciones y Maquilas Sandra Araceli Linares. Buen día! Espero estén bien. Equipo ICA ¿Nos apoyan con esta solicitud por favor? Requerimos de su apoyo con el cambio de correo en la sesión de la plataforma ya que la persona que estaba asignada ya no trabaja en PiSA Colombia. Necesitamos reasignación de cuenta y acceso a la plataforma antes de que se acabe el mes de Marzo por favor. Quedo atenta si requieren algo de nuestra parte. Muchas gracias, saludos.",
+                "Fecha": "20/03/2025",
+                "Hora": "10:03 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "cordial saludo, cómo estas., le envié un documento para que autoricen el cambio de correo, y con este puedan acceder con el usuario y hacer las correcciones o mejoras",
+                "Fecha": "20/03/2025",
+                "Hora": "10:14 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenos días. A que correo fue enviado el formato para modificar el correo y representante legal . En mis correos solo están las observaciones, peor no encuentro un archivo adjunto con el formato. Quedo atento",
+                "Fecha": "20/03/2025",
+                "Hora": "11:06 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, toda la información se maneja por CERESSO, validar por donde subió las imágenes , que en ese apartado encuentras el documento que le envié",
+                "Fecha": "20/03/2025",
+                "Hora": "11:59 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Como podemos obtener una nueva clave de ingreso a la aplicación, y poder actualizar la información de la compañía.",
+                "Fecha": "20/03/2025",
+                "Hora": "03:48 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, la nueva clave , es cambiando el correo que tenia el anterior representante por uno que me brinden, con el documento que le envié y solicitan recuperar contraseña y hacen el proceso",
+                "Fecha": "20/03/2025",
+                "Hora": "04:03 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo",
+                "Fecha": "20/03/2025",
+                "Hora": "07:35 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial saludo, Le informamos que se envio un correo de cierre por falta de respuesta",
+                "Fecha": "20/03/2025",
+                "Hora": "08:29 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenas tardes, ya tenemos la autorización y solicitud de nuestro representante legal el señor Milton Alfredo Carrol Pabón para la modificación del correo correspondiente a la cuenta de la empresa. El correo al cual deben llegar los comunicados es el: Jaescobar@pisa.com.mx Se anexa cámara de comercio y carta de solicitud de modificación de datos personales. Quedamos atentos",
+                "Fecha": "20/03/2025",
+                "Hora": "12:44 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, si gusta podemos reunirnos mañana para validar la información del caso y darle solución",
+                "Fecha": "20/03/2025",
+                "Hora": "04:46 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenos días. Si señor, me dice la hora para conectarme porque estoy en una zona de baja cobertura y debo buscar sitio de conexión.",
+                "Fecha": "20/03/2025",
+                "Hora": "07:16 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, la idea es que pueda conectarse con pc para compartir pantalla y hacer el proceso, me puedes brindar disponibilidades de 10 a 12 pm y de 3 a 5 pm",
+                "Fecha": "20/03/2025",
+                "Hora": "07:47 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenos días señor Vladimir. Si señor, podría ser de 3 a 5 pm",
+                "Fecha": "20/03/2025",
+                "Hora": "07:50 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Listo , entonces jueves, 27 de marzo 3:30 p. m. - 4:00 p. m. https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2U1YjM4MjQtNTBjNC00ZTVjLTkzNjEtMmI0Mjg1NjM0ZmEw%40thread.v2/0?context=%7b%22Tid%22%3a%22b7aeda0c-64cd-49d2-9a4d-3062367432e3%22%2c%22Oid%22%3a%2215f926db-7059-49a2-9a8a-615f624fe071%22%7d",
+                "Fecha": "20/03/2025",
+                "Hora": "07:53 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Confirmado 3:pm",
+                "Fecha": "20/03/2025",
+                "Hora": "07:57 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Si señor 3:00 pm",
+                "Fecha": "20/03/2025",
+                "Hora": "08:01 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Si, la programe a las 3.30, tengo antes una reunión y tal vez se va mas de las 3 pm",
+                "Fecha": "20/03/2025",
+                "Hora": "08:26 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "No hay problema, nos conectamos a las 3:30",
+                "Fecha": "20/03/2025",
+                "Hora": "08:30 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenas tardes Vladimir. Estoy enviando nuevamente la Solicitud de Modificación de datos, para el cambio de correo correspondiente a la cuenta de la empresa.",
+                "Fecha": "20/03/2025",
+                "Hora": "03:54 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, pero la idea es que el correo que se va cambiar a Hermes sea diferente al de Milton, porque entonces van a quedar repetidos y no se puede o si autorizan se añade al usuario Milton desde Hermes y hacen ya la validación desde ese usuario",
+                "Fecha": "20/03/2025",
+                "Hora": "04:09 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenas tardes Vladimir. Ya creamos la cuenta de Milton el Represéntate Legal con el correo correspondiente. Como hacemos para ingresar a la cuenta de Hermes, sino tenemos la clave para adicionar a Milton en la empresa. Quedamos atentos",
+                "Fecha": "20/03/2025",
+                "Hora": "04:29 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Pero seria entonces, cambiar el correo de hermes, pero no debe ser el mismo de Milton, y el de Milton no olvidar activar la cuenta",
+                "Fecha": "20/03/2025",
+                "Hora": "04:34 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "jescobar64",
+                "Mensaje": "Buenos días Vladimir. YA actualizamos el correo de Milton, modificar el correo de Hermes por el solicitado. Muchas gracias y quedamos atentos",
+                "Fecha": "20/03/2025",
+                "Hora": "09:06 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, entonces el correo de Hermes quedo con el de Jaescobar@pisa.com.mx, Para recuperar la contraseña por favor ingresar al siguiente enlace. https://tramites.ica.gov.co/raw/forgotPassword",
+                "Fecha": "20/03/2025",
+                "Hora": "09:17 AM"
             },
             {
                 "Tabla": "Tabla 2",
@@ -61,6 +453,13 @@
         "Detalles": [
             {
                 "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, estimado usuario, permítanos escalarlo a la Dirección técnica para que nos aprueben corregir las solicitudes",
+                "Fecha": "26/03/2025",
+                "Hora": "09:58 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
                 "Usuario": "sandraarevalo",
                 "Mensaje": "Estimado Ingeniero Vladimir Cordial saludo Agradezco su respuesta, quedo atenta a una pronta respuesta",
                 "Fecha": "26/03/2025",
@@ -71,6 +470,13 @@
     {
         "Referencia": "226483",
         "Detalles": [
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, estimado usuario, permítanos escalarlo a la Dirección técnica para que nos aprueben corregir las solicitudes",
+                "Fecha": "26/03/2025",
+                "Hora": "09:57 AM"
+            },
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "sandraarevalo",
@@ -86,6 +492,41 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, puedes incluir una imagen mas completa, no un recorte del error, que se vea, que estas agregando, como estas escribiendo la información, en que punto de la creación se encuentra, para darle mejor respuesta a su caso, Gracias",
+                "Fecha": "27/03/2025",
+                "Hora": "10:49 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial saludo, Le informamos que se envio un correo de cierre por falta de respuesta",
+                "Fecha": "27/03/2025",
+                "Hora": "08:53 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "PE19158",
+                "Mensaje": "Buen día, me disculpo por la demora, subí dos adjuntos, el cambio realizado que fue una adición de fabricante en el extranjero el cual me deja continuar sin ningún problema, hasta llegar al ítem 8. Términos y condiciones, donde tengo ambas casillas habilitadas para continuar al último paso de pago sin embargo, no puedo continuarlo por el error que se observa en la imagen",
+                "Fecha": "27/03/2025",
+                "Hora": "08:58 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos dias , que producto es?",
+                "Fecha": "27/03/2025",
+                "Hora": "09:06 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "PE19158",
+                "Mensaje": "Queremos adicionar el fabricante para productos Meowee que aun están en borrador pues no está el fabricante aun registrado, sin embargo el cambio se está haciendo en el apartado de Edición de fabricantes e importadores\" subí un cuarto adjunto",
+                "Fecha": "27/03/2025",
+                "Hora": "09:11 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
                 "Mensaje": "Muchas gracias, permítanos validamos con desarrollo",
                 "Fecha": "27/03/2025",
                 "Hora": "10:42 AM"
@@ -98,6 +539,13 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, le envie un documento por aca en CERESO, para que autorice el cambio de datos",
+                "Fecha": "27/03/2025",
+                "Hora": "11:03 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
                 "Mensaje": "Cordial saludo, Le informamos que se envio un correo de cierre por falta de respuesta",
                 "Fecha": "27/03/2025",
                 "Hora": "08:54 AM"
@@ -107,6 +555,13 @@
     {
         "Referencia": "226586",
         "Detalles": [
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, le envié un documento por acá en CERESO, para que autorice el cambio de datos, debes poner correo que tenia y por el cual va cambiar, sino se acuerda que correo tenia, me pones el que va tener actualmente, y me adjunta el certificado de cámara de comercio",
+                "Fecha": "27/03/2025",
+                "Hora": "11:16 AM"
+            },
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
@@ -131,6 +586,34 @@
     {
         "Referencia": "226727",
         "Detalles": [
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, permítanos validar que sucedió, de si se trata de un error o una actualización",
+                "Fecha": "27/03/2025",
+                "Hora": "03:25 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, cuando le das edición, a la pregunta que sale ¿Las modificaciones corresponden exclusivamente a alguno de los siguientes literales: 23.2, 23.4 de la resolución ICA 01580 del 2022 o modificación menor de rotulado?, cual opción estas marcando?",
+                "Fecha": "27/03/2025",
+                "Hora": "09:55 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "PE15003",
+                "Mensaje": "A la pregunta estamos dando la opcion (SI) ya que si corresponde a un cambio menor del rotulado, en los adjuntos dejo imagenes de la plataforma.",
+                "Fecha": "27/03/2025",
+                "Hora": "10:15 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Y al final en términos y condiciones te sale esta opción? Confirmo que la información actualizada en este formulario, corresponden a modificación(es) que ya se realizaron de manera manual ante el ICA, y que se otorgaron durante el periodo comprendido entre 01 agosto 2022 a 02 septiembre 2023. La actualización de estas modificaciones al registro no tendrá cobro, pero deben ser verificadas por un funcionario ICA. O a reclasificación de categoría toxicológica tras haber surtido las modificaciones de información técnica por adopción del SGA",
+                "Fecha": "27/03/2025",
+                "Hora": "10:38 AM"
+            },
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "PE15003",
@@ -170,6 +653,41 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, favor adjuntar los pdf de los registros que indicas en el cereso , cámara de comercio, y registro simplifica",
+                "Fecha": "28/03/2025",
+                "Hora": "04:25 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "andres.marin",
+                "Mensaje": "BUENOS DIAS YA REENVIE LOS DOCUMENTOS REQUERIDOS PARA LA SOLUCION DEL CASO",
+                "Fecha": "28/03/2025",
+                "Hora": "08:59 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, el usuario quedo actualizado a este correo velasquez07liliana@gmail.com Para recuperar la contraseña por favor ingresar al siguiente enlace. https://tramites.ica.gov.co/raw/forgotPassword",
+                "Fecha": "28/03/2025",
+                "Hora": "09:30 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "La empresa no esta creada, debe crearla y registrarse, la debe crear con Nit no con cedula si es para el área de comercializacion",
+                "Fecha": "28/03/2025",
+                "Hora": "09:30 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "andres.marin",
+                "Mensaje": "me sigue diciendo que el correo ya hacido tomado cuando intentto crear la cuenta",
+                "Fecha": "28/03/2025",
+                "Hora": "11:21 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
                 "Mensaje": "No debe crear la cuenta porquie ya esta creada debe darle en Para recuperar la contraseña por favor ingresar al siguiente enlace. https://simplifica.ica.gov.co/raw/forgotPassword",
                 "Fecha": "28/03/2025",
                 "Hora": "11:40 AM"
@@ -191,6 +709,34 @@
     {
         "Referencia": "226842",
         "Detalles": [
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, el Pin debe solicitarlo por la pagina, si estas dándole la opción de recupera contraseña o de crear usuario, el pin debe ser escrito como llega al correo y debe validar que esta en Simplifica y no en tramites",
+                "Fecha": "28/03/2025",
+                "Hora": "04:12 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "Se esta creando el usuario, y el pin que llega al correo no es el válido, como se puede volver a hacer el envío del pin?",
+                "Fecha": "28/03/2025",
+                "Hora": "10:47 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos días como vas, si gusta podemos revisar el lunes para validar el correo y el mensaje , porque lo ideal es que el pin que llega usarlo inmediatamente no un pin anterior, y darle en el enlace para que lo mande a recuperar contraseña",
+                "Fecha": "28/03/2025",
+                "Hora": "11:20 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "El correo es ventas@disterragro.com, la cédula es 1.002.629.982, el usuario carece de habilidad tecnológica para realizar este trámite, razón principal para colaborarle como funcionario ICA, el usuario confirma que cualquier información puede reenviarla por este medio.",
+                "Fecha": "28/03/2025",
+                "Hora": "12:05 PM"
+            },
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
@@ -230,6 +776,76 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, nos indicas el numero de la solicitud por favor",
+                "Fecha": "27/03/2025",
+                "Hora": "04:51 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "Boehringer Ingelheim S.A.",
+                "Mensaje": "Buenos dias claro que si el numero es 145985",
+                "Fecha": "27/03/2025",
+                "Hora": "09:19 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, vemos que en el modulo 3.Productor, no se visualiza esta información al comienzo Actividad industrial - Productor-Campo de aplicación ?",
+                "Fecha": "27/03/2025",
+                "Hora": "10:35 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "Boehringer Ingelheim S.A.",
+                "Mensaje": "Hola Buen dia Vladimir, reaalmente si se eligio es productor de biologicos y en la aprte de abajo se especifica solo que aparece mencionado",
+                "Fecha": "27/03/2025",
+                "Hora": "10:44 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Es que cuando entramos a revisar no se ve que este seleccionado, tal vez cuando cambies de módulos regresas al modulo 3, y validas si esta tomando el campo",
+                "Fecha": "27/03/2025",
+                "Hora": "11:01 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "Boehringer Ingelheim S.A.",
+                "Mensaje": "Hola Vladimir lo hago tal cual me sirve sin emabrgo no funciona es posible tener una pequeña reunion para ver el caso?, mi correo es paula.gonzalez.ext@boehringer-ingelheim.com",
+                "Fecha": "27/03/2025",
+                "Hora": "01:03 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Si gusta podemos reunirnos mañana despues de la 1pm",
+                "Fecha": "27/03/2025",
+                "Hora": "03:09 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "Boehringer Ingelheim S.A.",
+                "Mensaje": "claro que si perfecto a las 2pm estaria bien, podria porfavor darme su correo o en su defecto agendar la reunion, mil gracias en serio por tu ayuda!",
+                "Fecha": "27/03/2025",
+                "Hora": "05:30 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buen dia como vas viernes, 28 de marzo 10:30 a. m. - 11:00 a. m. https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTQyYjI5Y2ItYzg2NS00MmRhLWExZDUtZmM4NTg0YTQ5OTEx%40thread.v2/0?context=%7b%22Tid%22%3a%22b7aeda0c-64cd-49d2-9a4d-3062367432e3%22%2c%22Oid%22%3a%2215f926db-7059-49a2-9a8a-615f624fe071%22%7d",
+                "Fecha": "27/03/2025",
+                "Hora": "08:14 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Omitiir en enlace de arriba",
+                "Fecha": "27/03/2025",
+                "Hora": "01:27 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
                 "Mensaje": "viernes, 28 de marzo 2:00 p. m. - 2:30 p. m. https://teams.microsoft.com/l/meetup-join/19%3ameeting_Nzg0OTIxODQtNmJmNi00ZTQyLWE2MTUtODU1YWU4NjkyMGY3%40thread.v2/0?context=%7b%22Tid%22%3a%22b7aeda0c-64cd-49d2-9a4d-3062367432e3%22%2c%22Oid%22%3a%2215f926db-7059-49a2-9a8a-615f624fe071%22%7d",
                 "Fecha": "27/03/2025",
                 "Hora": "01:27 PM"
@@ -239,6 +855,34 @@
     {
         "Referencia": "226930",
         "Detalles": [
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, el Pin debe solicitarlo por la pagina, si estas dándole la opción de recupera contraseña o de crear usuario, el pin debe ser escrito como llega al correo y debe validar que esta en Simplifica y no en tramites",
+                "Fecha": "28/03/2025",
+                "Hora": "04:12 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "Se esta creando el usuario, y el pin que llega al correo no es el válido, como se puede volver a hacer el envío del pin?",
+                "Fecha": "28/03/2025",
+                "Hora": "10:47 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos días como vas, si gusta podemos revisar el lunes para validar el correo y el mensaje , porque lo ideal es que el pin que llega usarlo inmediatamente no un pin anterior, y darle en el enlace para que lo mande a recuperar contraseña",
+                "Fecha": "28/03/2025",
+                "Hora": "11:20 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "El correo es ventas@disterragro.com, la cédula es 1.002.629.982, el usuario carece de habilidad tecnológica para realizar este trámite, razón principal para colaborarle como funcionario ICA, el usuario confirma que cualquier información puede reenviarla por este medio.",
+                "Fecha": "28/03/2025",
+                "Hora": "12:05 PM"
+            },
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
@@ -278,6 +922,34 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, el Pin debe solicitarlo por la pagina, si estas dándole la opción de recupera contraseña o de crear usuario, el pin debe ser escrito como llega al correo y debe validar que esta en Simplifica y no en tramites",
+                "Fecha": "28/03/2025",
+                "Hora": "04:12 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "Se esta creando el usuario, y el pin que llega al correo no es el válido, como se puede volver a hacer el envío del pin?",
+                "Fecha": "28/03/2025",
+                "Hora": "10:47 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos días como vas, si gusta podemos revisar el lunes para validar el correo y el mensaje , porque lo ideal es que el pin que llega usarlo inmediatamente no un pin anterior, y darle en el enlace para que lo mande a recuperar contraseña",
+                "Fecha": "28/03/2025",
+                "Hora": "11:20 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "El correo es ventas@disterragro.com, la cédula es 1.002.629.982, el usuario carece de habilidad tecnológica para realizar este trámite, razón principal para colaborarle como funcionario ICA, el usuario confirma que cualquier información puede reenviarla por este medio.",
+                "Fecha": "28/03/2025",
+                "Hora": "12:05 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
                 "Mensaje": "el usuario se ve bien registrado, los datos coinciden con el sistema, esta activo, por lo que se le da recuperar contraseñé, debe ser con ese mismo correo, también vemos que le llego correo de notificación con los PIn, y confirmación de cambio de contraseña, si el sistema le confirmo entonces esta haciendo bien el paso a paso",
                 "Fecha": "28/03/2025",
                 "Hora": "12:44 PM"
@@ -288,18 +960,39 @@
         "Referencia": "227141",
         "Detalles": [
             {
-                "Tabla": "Tabla 1",
-                "Usuario": "alvaro.pedraza",
-                "Mensaje": "N/A",
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Cordial Saludo, como estas, el Pin debe solicitarlo por la pagina, si estas dándole la opción de recupera contraseña o de crear usuario, el pin debe ser escrito como llega al correo y debe validar que esta en Simplifica y no en tramites",
                 "Fecha": "28/03/2025",
-                "Hora": "10:08 AM"
+                "Hora": "04:12 PM"
             },
             {
                 "Tabla": "Tabla 2",
-                "Usuario": "AgripacAndina!",
-                "Mensaje": "Archivo descargado, muchas gracias.",
-                "Fecha": "N/A",
-                "Hora": "12:07 PM"
+                "Usuario": "selene.lara",
+                "Mensaje": "Se esta creando el usuario, y el pin que llega al correo no es el válido, como se puede volver a hacer el envío del pin?",
+                "Fecha": "28/03/2025",
+                "Hora": "10:47 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos días como vas, si gusta podemos revisar el lunes para validar el correo y el mensaje , porque lo ideal es que el pin que llega usarlo inmediatamente no un pin anterior, y darle en el enlace para que lo mande a recuperar contraseña",
+                "Fecha": "28/03/2025",
+                "Hora": "11:20 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "El correo es ventas@disterragro.com, la cédula es 1.002.629.982, el usuario carece de habilidad tecnológica para realizar este trámite, razón principal para colaborarle como funcionario ICA, el usuario confirma que cualquier información puede reenviarla por este medio.",
+                "Fecha": "28/03/2025",
+                "Hora": "12:05 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "el usuario se ve bien registrado, los datos coinciden con el sistema, esta activo, por lo que se le da recuperar contraseñé, debe ser con ese mismo correo, también vemos que le llego correo de notificación con los PIn, y confirmación de cambio de contraseña, si el sistema le confirmo entonces esta haciendo bien el paso a paso",
+                "Fecha": "28/03/2025",
+                "Hora": "12:44 PM"
             }
         ]
     },
@@ -309,9 +1002,37 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
-                "Mensaje": "Buenos días como estas, desde el modulo Empresas editan el Registro en donde dice ubicaciones y le cambian en el nombre, posterior a esto editan este registro 170420541 y sin tocar nada mas, guardan cambios para que le cambie el pdf",
+                "Mensaje": "Cordial Saludo, como estas, el Pin debe solicitarlo por la pagina, si estas dándole la opción de recupera contraseña o de crear usuario, el pin debe ser escrito como llega al correo y debe validar que esta en Simplifica y no en tramites",
                 "Fecha": "28/03/2025",
-                "Hora": "10:29 AM"
+                "Hora": "04:12 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "Se esta creando el usuario, y el pin que llega al correo no es el válido, como se puede volver a hacer el envío del pin?",
+                "Fecha": "28/03/2025",
+                "Hora": "10:47 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "Buenos días como vas, si gusta podemos revisar el lunes para validar el correo y el mensaje , porque lo ideal es que el pin que llega usarlo inmediatamente no un pin anterior, y darle en el enlace para que lo mande a recuperar contraseña",
+                "Fecha": "28/03/2025",
+                "Hora": "11:20 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "El correo es ventas@disterragro.com, la cédula es 1.002.629.982, el usuario carece de habilidad tecnológica para realizar este trámite, razón principal para colaborarle como funcionario ICA, el usuario confirma que cualquier información puede reenviarla por este medio.",
+                "Fecha": "28/03/2025",
+                "Hora": "12:05 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "vladimir.ortega",
+                "Mensaje": "el usuario se ve bien registrado, los datos coinciden con el sistema, esta activo, por lo que se le da recuperar contraseñé, debe ser con ese mismo correo, también vemos que le llego correo de notificación con los PIn, y confirmación de cambio de contraseña, si el sistema le confirmo entonces esta haciendo bien el paso a paso",
+                "Fecha": "28/03/2025",
+                "Hora": "12:44 PM"
             }
         ]
     },
@@ -321,27 +1042,31 @@
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
-                "Mensaje": "debera buscar dentro de esta pagina un boton Rojo que diga Adjuntos, Ver guia: https://www.ica.gov.co/getattachment/servicios_linea/Registro-productos-de-alimentos/Contactenos-Soportes-y-o-Dudas/GUIA-MESA-DE-SERVICIO-SIMPLIFICA.pdf.aspx?lang=es-CO",
-                "Fecha": "N/A",
-                "Hora": "12:28 PM"
-            }
-        ]
-    },
-    {
-        "Referencia": "227159",
-        "Detalles": [
+                "Mensaje": "Cordial Saludo, como estas, el Pin debe solicitarlo por la pagina, si estas dándole la opción de recupera contraseña o de crear usuario, el pin debe ser escrito como llega al correo y debe validar que esta en Simplifica y no en tramites",
+                "Fecha": "28/03/2025",
+                "Hora": "04:12 PM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "Se esta creando el usuario, y el pin que llega al correo no es el válido, como se puede volver a hacer el envío del pin?",
+                "Fecha": "28/03/2025",
+                "Hora": "10:47 AM"
+            },
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
-                "Mensaje": "Cordial Saludo, como estas, el usuario esta bien registrado, incluso le llegan los mensajes con el Pin para cambiar la contraseñé, debe validar porque le han llegado varios que no le este dando click a un correo viejo",
-                "Fecha": "N/A",
-                "Hora": "02:45 PM"
-            }
-        ]
-    },
-    {
-        "Referencia": "227223",
-        "Detalles": [
+                "Mensaje": "Buenos días como vas, si gusta podemos revisar el lunes para validar el correo y el mensaje , porque lo ideal es que el pin que llega usarlo inmediatamente no un pin anterior, y darle en el enlace para que lo mande a recuperar contraseña",
+                "Fecha": "28/03/2025",
+                "Hora": "11:20 AM"
+            },
+            {
+                "Tabla": "Tabla 2",
+                "Usuario": "selene.lara",
+                "Mensaje": "El correo es ventas@disterragro.com, la cédula es 1.002.629.982, el usuario carece de habilidad tecnológica para realizar este trámite, razón principal para colaborarle como funcionario ICA, el usuario confirma que cualquier información puede reenviarla por este medio.",
+                "Fecha": "28/03/2025",
+                "Hora": "12:05 PM"
+            },
             {
                 "Tabla": "Tabla 2",
                 "Usuario": "vladimir.ortega",
