@@ -79,14 +79,14 @@ output_path = os.path.join(script_dir, "archivo_limpio.json")
 
 # Verifica si el archivo existe
 if not os.path.exists(file_path):
-    print(f"🚨 El archivo {file_path} no existe.")
+    print(f"El archivo {file_path} no existe.")
     exit()
 
 # Intenta leer el JSON como un DataFrame
 try:
     df = pd.read_json(file_path, dtype=str, encoding="utf-8")
 except ValueError as e:
-    print(f"🚨 Error al cargar el JSON: {e}")
+    print(f"Error al cargar el JSON: {e}")
     exit()
 
 # Asegurar que la columna "Detalles" no contenga valores nulos
@@ -94,7 +94,7 @@ if "Detalles" in df.columns:
     df["Detalles"] = df["Detalles"].fillna("")
     df = df[~df["Detalles"].str.contains("No se encontraron detalles", na=False, case=False)]
 else:
-    print("🚨 La columna 'Detalles' no se encuentra en el JSON.")
+    print("La columna 'Detalles' no se encuentra en el JSON.")
     exit()
 
 # Función para extraer diálogos desde la columna "Detalles"
@@ -103,7 +103,7 @@ def extraer_dialogos(id_caso, detalle):
     Extrae los diálogos de la columna 'Detalles' y los estructura en una lista.
     """                                                                                          
     patrones = re.findall(
-        r'📌\s*(Tabla\s*\d+):?\s*\|\s*Usuario:\s*([^|]+)\s*\|\s*Mensaje:\s*([^|]+)\s*(?:\|\s*Fecha:\s*([\d/-]+|N/A))?\s*(?:\|\s*Hora:\s*([^|]+|N/A))?', 
+        r'\s*(Tabla\s*\d+):?\s*\|\s*Usuario:\s*([^|]+)\s*\|\s*Mensaje:\s*([^|]+)\s*(?:\|\s*Fecha:\s*([\d/-]+|N/A))?\s*(?:\|\s*Hora:\s*([^|]+|N/A))?', 
         detalle
     )
 
@@ -124,7 +124,7 @@ def extraer_dialogos(id_caso, detalle):
 datos_json = {}
 
 if "Referencia" not in df.columns:
-    print("🚨 La columna 'Referencia' no se encuentra en el JSON.")
+    print("La columna 'Referencia' no se encuentra en el JSON.")
     exit()
 
 for _, row in df.iterrows():
@@ -144,4 +144,4 @@ resultado_json = list(datos_json.values())
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(resultado_json, f, indent=4, ensure_ascii=False)
 
-print(f"✅ Archivo limpio guardado en: {output_path}")
+print(f"Archivo limpio guardado en: {output_path}")

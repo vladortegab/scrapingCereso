@@ -1,14 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import pandas as pd
 import time
-import re
-import csv
+import sys
 import json
 
 from selenium.common.exceptions import TimeoutException
@@ -42,17 +40,18 @@ def iniciar_sesion(driver, usuario, contraseña):
     except Exception as e:
         print("Error al iniciar sesión:", e)
 
-""" def extraer_tabla(driver):
-    ""Extrae datos de la tabla y los guarda en un archivo CSV.""
+def extraer_tabla(driver):
+    """Extrae datos de la tabla y los guarda en un archivo CSV."""""
     
     # 1️⃣ Hacer clic en el botón 'Vista' para desplegar opciones
     try:
+        wait = WebDriverWait(driver, 10)
         boton_vista = wait.until(EC.presence_of_element_located((By.XPATH, "//li[contains(@class, 'ColorTab')]/a[div/div[text()='Vista']]")))
         boton_vista.click()
-        print("✅ Se hizo clic en la pestaña 'Vista'.")
+        print("Se hizo clic en la pestaña 'Vista'.")
         time.sleep(2)
     except Exception as e:
-        print("⚠️ No se pudo abrir la vista de opciones:", e)
+        print("No se pudo abrir la vista de opciones:", e)
         return
 
     # 2️⃣ Seleccionar 100 en el select
@@ -60,11 +59,11 @@ def iniciar_sesion(driver, usuario, contraseña):
         select_element = wait.until(EC.presence_of_element_located((By.XPATH, "//select[@class='form-control']")))
         select = Select(select_element)
         select.select_by_value("100")
-        print("✅ Se seleccionó '100 filas' en el selector.")
+        print("Se seleccionó '100 filas' en el selector.")
 
         time.sleep(5)  # Esperar que carguen los datos
     except Exception as e:
-        print("⚠️ No se pudo seleccionar 100 registros por página:", e)
+        print("No se pudo seleccionar 100 registros por página:", e)
         return
         
     try:
@@ -88,14 +87,14 @@ def iniciar_sesion(driver, usuario, contraseña):
         with open("primera_vista.json", "w", encoding="utf-8") as json_file:
             json_file.write(json_data)
 
-        print("✅ Extracción completada. Datos guardados en 'primera_vista.json'")
+        print("Extracción completada. Datos guardados en 'primera_vista.json'")
 
         return json_data
 
     except Exception as e:
-        print("❌ Error al extraer la tabla principal:", e)
+        print("Error al extraer la tabla principal:", e)
 
- """
+ 
 
 def extraer_detalles_caso(driver, wait, index):
     """Extrae los detalles de un caso, asegurando que la fecha correcta se asigne a cada mensaje y evitando mensajes vacíos."""
@@ -125,13 +124,13 @@ def extraer_detalles_caso(driver, wait, index):
 
                 # Solo agregar si hay un mensaje no vacío
                 if mensaje:
-                    detalles_tabla1.append(f"📌 Tabla 1: | Usuario: {usuario} | Mensaje: {mensaje} | Fecha: {ultima_fecha} | Hora: {hora}")
+                    detalles_tabla1.append(f"Tabla 1: | Usuario: {usuario} | Mensaje: {mensaje} | Fecha: {ultima_fecha} | Hora: {hora}")
 
         if detalles_tabla1:
             detalles_vista.append(" || ".join(detalles_tabla1))
 
     except Exception as e:
-        detalles_vista.append(f"📌 Tabla 1: Error ({e})")
+        detalles_vista.append(f"Tabla 1: Error ({e})")
 
     #Extraccion de informacion conversación con Usuarios
     try:
@@ -159,29 +158,29 @@ def extraer_detalles_caso(driver, wait, index):
 
                     # Solo agregar si hay un mensaje no vacío
                     if mensaje:
-                        detalles_tabla2.append(f"📌 Tabla 2: | Usuario: {usuario} | Mensaje: {mensaje} | Fecha: {ultima_fecha} | Hora: {hora}")
+                        detalles_tabla2.append(f"Tabla 2: | Usuario: {usuario} | Mensaje: {mensaje} | Fecha: {ultima_fecha} | Hora: {hora}")
 
             if detalles_tabla2:
                 detalles_vista.append(" || ".join(detalles_tabla2))
 
     except Exception as e:
-        detalles_vista.append(f"📌 Tabla 2: Error ({e})")
+        detalles_vista.append(f"Tabla 2: Error ({e})")
 
     return " | ".join(detalles_vista) if detalles_vista else "No se encontraron detalles"
 def extraer_detalles_tabla(driver):
     """Extrae detalles de la segunda vista y los guarda en 'segunda_vista.json'."""
     try:
         wait = WebDriverWait(driver, 10)
-        print("⏳ Iniciando extracción de datos...")
+        print("Iniciando extracción de datos...")
 
         # 1️⃣ Hacer clic en el botón 'Vista' para desplegar opciones
         try:
             boton_vista = wait.until(EC.presence_of_element_located((By.XPATH, "//li[contains(@class, 'ColorTab')]/a[div/div[text()='Vista']]")))
             boton_vista.click()
-            print("✅ Se hizo clic en la pestaña 'Vista'.")
+            print("Se hizo clic en la pestaña 'Vista'.")
             time.sleep(2)
         except Exception as e:
-            print("⚠️ No se pudo abrir la vista de opciones:", e)
+            print("No se pudo abrir la vista de opciones:", e)
             return
 
         # 2️⃣ Seleccionar 100 en el select
@@ -189,11 +188,11 @@ def extraer_detalles_tabla(driver):
             select_element = wait.until(EC.presence_of_element_located((By.XPATH, "//select[@class='form-control']")))
             select = Select(select_element)
             select.select_by_value("100")
-            print("✅ Se seleccionó '100 filas' en el selector.")
+            print("Se seleccionó '100 filas' en el selector.")
 
             time.sleep(5)  # Esperar que carguen los datos
         except Exception as e:
-            print("⚠️ No se pudo seleccionar 100 registros por página:", e)
+            print("No se pudo seleccionar 100 registros por página:", e)
             return
 
         data_segunda_vista = []
@@ -211,7 +210,7 @@ def extraer_detalles_tabla(driver):
             try:
                 filas = obtener_filas()
                 if index >= len(filas):  
-                    print("⚠️ Se alcanzó el final de la tabla.")
+                    print("Se alcanzó el final de la tabla.")
                     break  
                 
                 fila = filas[index]
@@ -238,20 +237,20 @@ def extraer_detalles_tabla(driver):
                     boton_volver = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[title='Inicio']")))
                     if boton_volver.is_displayed() and boton_volver.is_enabled():
                         boton_volver.click()
-                        print(f"🔙 Se hizo clic en el botón de volver en la fila {index}.")
+                        print(f"Se hizo clic en el botón de volver en la fila {index}.")
               
                     else:
                         raise Exception("El botón de volver no está interactuable.")
                 except Exception as e:
-                    print(f"⚠️ Validar error de : {e}")
-                    print(f"⚠️ No se encontró el botón de volver en la fila {index}. Intentando con `driver.back()`")
+                    print(f"Validar error de : {e}")
+                    print(f"No se encontró el botón de volver en la fila {index}. Intentando con `driver.back()`")
                     driver.back()
                 
                 index += 1
                 total_filas = len(obtener_filas())  
             
             except Exception as e:
-                print(f"❌ Error en la fila {index}: {e}")
+                print(f"Error en la fila {index}: {e}")
                 index += 1
 
                                 
@@ -262,14 +261,14 @@ def extraer_detalles_tabla(driver):
             with open("segunda_vista.json", "w", encoding="utf-8") as json_file:
                 json_file.write(json_data)
 
-            print("✅ Segunda vista guardada en 'segunda_vista.json'.")
+            print("Segunda vista guardada en 'segunda_vista.json'.")
             return json_data
         else:
-            print("⚠️ No se extrajo ningún dato para la segunda vista.")
+            print("No se extrajo ningún dato para la segunda vista.")
             return json.dumps([])
 
     except Exception as e:
-        print("❌ Error general en la extracción:", e)
+        print("Error general en la extracción:", e)
         return json.dumps([])
 
        
@@ -284,5 +283,4 @@ if __name__ == "__main__":
     extraer_detalles_tabla(driver)  # Extraer y guardar la segunda vista
 
 
-    input("Presiona Enter para cerrar el navegador...")
     driver.quit()

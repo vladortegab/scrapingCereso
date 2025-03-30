@@ -46,16 +46,16 @@ def extraer_tabla(driver):
     """Extrae datos de la tabla y los guarda en un archivo CSV."""
     try:
         wait = WebDriverWait(driver, 10)
-        print("⏳ Iniciando extracción de datos...")
+        print("Iniciando extracción de datos...")
 
         # 1️⃣ Hacer clic en el botón 'Vista' para desplegar opciones
         try:
             boton_vista = wait.until(EC.presence_of_element_located((By.XPATH, "//li[contains(@class, 'ColorTab')]/a[div/div[text()='Vista']]")))
             boton_vista.click()
-            print("✅ Se hizo clic en la pestaña 'Vista'.")
+            print("Se hizo clic en la pestaña 'Vista'.")
             time.sleep(2)
         except Exception as e:
-            print("⚠️ No se pudo abrir la vista de opciones:", e)
+            print("No se pudo abrir la vista de opciones:", e)
             return
 
         # 2️⃣ Seleccionar 100 en el select
@@ -63,11 +63,11 @@ def extraer_tabla(driver):
             select_element = wait.until(EC.presence_of_element_located((By.XPATH, "//select[@class='form-control']")))
             select = Select(select_element)
             select.select_by_value("100")
-            print("✅ Se seleccionó '100 filas' en el selector.")
+            print("Se seleccionó '100 filas' en el selector.")
 
             time.sleep(5)  # Esperar que carguen los datos
         except Exception as e:
-            print("⚠️ No se pudo seleccionar 100 registros por página:", e)
+            print("No se pudo seleccionar 100 registros por página:", e)
             return
             
         try:
@@ -91,15 +91,15 @@ def extraer_tabla(driver):
             with open("primera_vista.json", "w", encoding="utf-8") as json_file:
                 json_file.write(json_data)
 
-            print("✅ Extracción completada. Datos guardados en 'primera_vista.json'")
+            print("Extracción completada. Datos guardados en 'primera_vista.json'")
 
             return json_data
 
         except Exception as e:
-            print("❌ Error al extraer la tabla principal:", e)
+            print("Error al extraer la tabla principal:", e)
             
     except Exception as e:
-        print("❌ Error general en la extracción:", e)
+        print("Error general en la extracción:", e)
         return json.dumps([])
        
 if __name__ == "__main__":
@@ -112,5 +112,4 @@ if __name__ == "__main__":
     extraer_tabla(driver)  # Extraer y guardar la primera vista
 
 
-    input("Presiona Enter para cerrar el navegador...")
     driver.quit()
