@@ -69,7 +69,9 @@ def extraer_tabla(driver):
         except Exception as e:
             print("No se pudo seleccionar 100 registros por página:", e)
             return
-            
+         
+        
+             
         try:
             # Esperar a que la tabla cargue
             wait = WebDriverWait(driver, 10)
@@ -78,12 +80,43 @@ def extraer_tabla(driver):
             # Extraer filas de la tabla
             rows = table_element.find_elements(By.TAG_NAME, "tr")
             data = []
-
+            
+            
+            
+            columnas = [
+                    "Acción",
+                    "Caso",
+                    "Adjunto",
+                    "Estado",
+                    "Fecha Creación",
+                    "Fecha Asignación",
+                    "Atendido",
+                    "Usuario",
+                    "Departamento",
+                    "Oficina",
+                    "Cargo",
+                    "Categoría",
+                    "Asunto",
+                    "Descripción",
+                    "Tiempo Respuesta (min)",
+                    "Tiempo Transcurrido (min)",
+                    "Tiempo Pendiente (min)"
+                     
+                    
+            ]
+           
             for row in rows:
                 columns = row.find_elements(By.TAG_NAME, "td")
                 row_data = [col.text.strip() for col in columns]
-                if row_data:
-                    data.append(row_data)
+
+                if row_data and any(row_data):  # Verifica que haya al menos un valor no vacío
+                    fila_dict = dict(zip(columnas, row_data))
+    
+                    # Validar que el campo 'Caso' tenga valor (o el que desees como obligatorio)
+                    if fila_dict.get("Caso"):
+                        data.append(fila_dict)
+
+                                
         # Convertir datos a JSON
             json_data = json.dumps(data, ensure_ascii=False, indent=4)
 
